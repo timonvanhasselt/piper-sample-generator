@@ -28,7 +28,7 @@ def generate_samples(
     output_dir: Union[str, Path],
     max_samples: Optional[int] = None,
     file_names: Optional[List[str]] = None,
-    model: Union[str, Path] = _DIR / "models" / "nl_NL-mls-medium.pt",
+    model: Union[str, Path] = _DIR / "models" / "nl_NL-pim-medium.pt",
     batch_size: int = 1,
     slerp_weights: Tuple[float, ...] = (0.5,),
     length_scales: Tuple[float, ...] = (0.75, 1, 1.25),
